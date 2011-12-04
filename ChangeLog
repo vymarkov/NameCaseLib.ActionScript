@@ -1,3 +1,34 @@
+commit da6d8dd4ab0822f275ce3e499690bf5feb7c86bb
+Merge: becc8b5 43d974b
+Author: krivtsov <vitalik.krivtsov@mail.ru>
+Date:   Sun Dec 4 22:51:08 2011 +0200
+
+    Merge branch 'master' of github.com:krivtsov/NameCaseLib.ActionScript
+
+commit becc8b5b5ce010036028e9b59b304507f180758b
+Author: krivtsov <vitalik.krivtsov@mail.ru>
+Date:   Sun Dec 4 22:50:03 2011 +0200
+
+    added src/file
+
+commit 4a7d485039a97c8922b494342474a597d6457566
+Author: krivtsov <vitalik.krivtsov@mail.ru>
+Date:   Sun Dec 4 22:46:29 2011 +0200
+
+    deleted src/Main.as and src/MainCS4.fla
+
+commit 43d974b63099cd9f6298575349441497429347c7
+Author: krivtsov <vitalik.krivtsov@mail.ru>
+Date:   Sun Dec 4 21:29:22 2011 +0200
+
+    edited file src/Lesson1.as
+
+commit 501bb036dcc4f59baaad67ee98b5afbe8bdffa38
+Author: krivtsov <vitalik.krivtsov@mail.ru>
+Date:   Sun Dec 4 21:21:28 2011 +0200
+
+    added ChangeLog
+
 commit 5a97a43110bd49bebf0678f5074fa813bd8d8bb6
 Author: krivtsov <vitalik.krivtsov@mail.ru>
 Date:   Sun Dec 4 21:19:06 2011 +0200
