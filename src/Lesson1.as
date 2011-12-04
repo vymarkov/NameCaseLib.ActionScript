@@ -56,28 +56,8 @@ package
 			/**
 			 * Производим склонения и выводим результат.
 			 */			
-			trace( ncru.q('Андрей Николаевич') );			
-			trace( ncru.q('Роман Мураль') );	
-			trace( ncru.words );
-			trace( ncru.q('Илья Перекопский') );	
-			trace( ncru.q('Гавриил Гордеев') );	
-			trace( ncru.q('Нинель Овечкина') );	
-			trace( ncru.q('Нинель Гелашвили') );	
-			trace( ncru.q('Эльнара Петрова') );	
-			trace( ncru.q('Даша Номеровская') );	
-			trace( ncru.q('Саша Муромский') );	
-			trace( ncru.q('Алеся Кладковских') );	
-			trace( ncru.q('Альбина Дмитренко') );	
-			trace( ncru.q('Настасия Вискас') );	
-			trace( ncru.q('Воробей Лев Ильич') );
-			trace( ncru.q('Леха Цымалёв') );
-			trace( ncru.q('Фамил Садыгов') );
-			trace( ncru.q('Катюха') );
-			trace( ncru.q('Фелиция Жанлис') );
-			trace( ncru.q('Дарья Тесленко') );
-			trace( ncru.q('Наталья Тесленко') );
+			trace( ncru.q('Андрей Николаевич') );		
 			
-			trace( ncru.words );
 		}
 		
 	}
