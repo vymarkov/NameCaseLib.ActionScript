@@ -110,6 +110,12 @@ package by.nickel.namecase
 					rule = 202;
 					return true;
 				}
+                                else if ( NCLStr.search(NCLStr.last(workingWord, 2, 1), 'её' ) ) 
+				{
+					wordForms( workingWord, [ 'ька', 'ьку', 'ька', 'ьком', 'ьке' ], 2 );					
+					rule = 605;
+					return true;				
+				} 
 				else
 				{
 					wordForms( workingWord, ['а', 'у', 'а', 'ом', 'е'] );
@@ -602,7 +608,7 @@ package by.nickel.namecase
 			 * Имена с оканчанием -на (Полина, Тина, Яна, Янина и т.д.) 
 			 * Ласкательные имена с оканчанием -ша. Например, Маша, Наташа, Саша, Миша и т.д.
 			 */
-			if ( NCLStr.search(NCLStr.last(word, 2), ['ий', 'ав', 'ей']) )	
+			if ( NCLStr.search(NCLStr.last(word, 2), ['ий', 'ав', 'ей', 'ек', 'ёк', 'ок']) )	
 			{	
 				/**
 				 * Возможно, что это фамилия (Муромский, Гайворонский, Садлинский и т.д).
