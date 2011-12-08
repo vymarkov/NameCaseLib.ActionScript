@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+    <head>
+        <title>NameCaseLib склонение ФИО по падежам</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="./style/css/ncl.css?v5" rel="stylesheet" media="all" />
+		<script src="./js/swfobject.js" type="text/javascript"></script>
+		<script src="./js/example.js" type="text/javascript"></script> 		
+    </head>
+    <body onload="pageInit()">    
+        <div class="wrapper">
+            <div class="header">
+                <div class="logo"><b>N</b>ameCaseLib<span>
+                Склонение ФИО русского и украинского языков</span></div><div class="language-selector"><a href='/ru/case-ru/' title='pagein.ru' class='flag ru-flag'><a><a href='/ua/case-ru/' title='pagein.ua' class='flag ua-flag'><a></div>
+                <div class="menu">
+					<ul><li><a href="/ru/">NameCaseLib</a></li><li class="current"><a href="/ru/case/">Демо</a></li><li><a href="/ru/book/">Документация</a></li><li><a href="/ru/download.html">Скачать</a></li><li><a href="/ru/license.html">Лицензия</a></li><li><a href="/ru/donate.html">Помощь проекту</a></li></ul>
+				</div>
+				<div id="as3namecaselib"></div>
+			<div class="content"> 			
+			<h1>Склонение ФИО по падежам Online</h1>
+			<div class="myform">
+				<p class="help">Введите ФИО, нажмите кнопку «Украинский» или «Русский» в зависимости от языка.</p>
+				<input type="text" id="input" name="words" class="maininput" value="" />
+				<input type="submit" value="Украинский" onclick="setLanguage('ua')" class="mainbutton ukr" />
+				<input type="submit" value="Русский" onclick="setLanguage('ru')" class="mainbutton rus" />
+			</div>
+			<div id="word_result">
+				<div id="left" class="left">
+					<div class="face man">
+						<span>Мужчина</span>
+					</div>
+					<div class="flags ru">
+						<span>Русский язык</span>
+					</div>
+				</div>
+				<div id="right" class="right">			
+			</div>  
+		</body>
+</html>

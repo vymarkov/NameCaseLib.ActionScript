@@ -1,0 +1,180 @@
+body {
+    font: .9em Verdana, sans-serif; 
+    color:#000;
+    background:#fff;
+}
+h1{ font-size: 1.9em;}
+.header{ position: relative;}
+.social{ display: block; width:200px; position: absolute; top:0px; right: 0px;}
+.wrapper {width: 900px; margin:auto;}
+.logo {font-size: 48px;}
+.logo span{display: block; font-size: 18px; color:gray;}
+.logo b{font-weight: normal; color: #0269b4;}
+
+a{color:#10619b;}
+a:hover{color:#063d65;}
+a:visited{color: #5599cb;}
+#vk_like{ margin-bottom: 5px; margin-top: 5px;}
+.menu ul{display: block; width: 100%; height: 40px; list-style: none; padding-left: 0;}
+.menu ul li{display: inline-block;  border: 1px #fff dotted; border-bottom: 1px #0269b4 dotted; margin-right: 5px;}
+.menu ul li.current{border-bottom: 1px red dotted;}
+.menu ul li:hover{border: 1px #0269b4 dotted;}
+.menu ul li.current{border: 1px #fff dotted; border-bottom: 1px red dotted;}
+.menu ul li a{text-decoration: none; color:#000; font-size: 20px; padding: 5px; display: block;}
+
+
+.footer{display: block; width: 100%; padding-top:10px; padding-bottom: 40px; border-top:1px lightgray dotted; font-size: 10px; text-align: center; margin-top: 30px;}
+
+.content{text-align: justify; font-size: 0.9em;}
+
+.myform {
+    display: block;
+    margin-bottom: 20px;
+}
+.myform p {
+    margin-bottom: 5px;
+}
+
+.maininput {
+    background: url("../images/background.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    float: left;
+    font-size: 20px;
+    height: 36px;
+    margin-right: 0;
+    width: 520px;
+}
+
+.maininput:hover {
+    background-color: #E7F5FF;
+}
+.mainbutton {
+
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+}
+.rus {background: url("../images/background.png") repeat-x scroll 0 0 #1259a9;}
+.ukr {background: url("../images/background.png") repeat-x scroll 0 0 #b6aa00; float: left;}
+
+
+.mainbutton:hover {
+    cursor: pointer;
+}
+
+.rus:hover{ background-color: #0a2d54;}
+.ukr:hover{ background-color: #645e01;}
+
+.help {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.beautifull_word, .word_result{ overflow: hidden;}
+.word{ font-size: 28px; display: block; float:left; margin-right: 10px; padding: 5px; margin-bottom: 10px;}
+.word span{ display: block; font-size: 10px; width: 100%; text-align: center;}
+.second{background-color: #dcfdbd;}
+.first{background-color: #fdbdbd;}
+.father{background-color: #fdfcbd;}
+
+.left{float: left; margin-right: 10px;}
+.face{display: block; width:150px; padding-top: 160px;  background-image: url('../images/faces.jpg'); }
+.face span{ font-size: 10px; display: block; width:100%; background-color: #fff;  text-align: center;}
+.man{ background-position: 0px 0px;}
+.woman{ background-position: 0 -200px;}
+
+.flags{display: block; width:150px; padding-top: 43px; background-image: url('../images/flags.png'); margin-top: 10px;}
+.flags span{font-size: 10px; display: block; width:100%; background-color: #fff;  text-align: center;}
+.ru{ background-position: 0 0;}
+.ua{ background-position: 0 -43px;}
+
+.namecase{ list-style: none; margin-left: 0px; display: block; padding-left: 15px; font-size: 1.1em; line-height: 1.5em;}
+
+.prevlink{float: left;}
+.nextlink{float:right; text-align: right;}
+.headlines{display: block; width:100%; text-align: center; margin-top: 10px; overflow: hidden;}
+
+pre{background-color: #232125; padding: 10px; display: block; color: #fff;}
+code{background-color: #d1e6ff; padding: 10px; display: block; color: #fff; overflow: auto;}
+
+.download{ overflow: hidden;}
+.downloadButton{
+    background: -moz-linear-gradient(90deg, #3570B8, #5E9AE2) repeat scroll 0 0 #5E9AE2;
+                
+                border: 1px solid #2E63A5;
+                border-radius: 5px 5px 5px 5px;
+                box-shadow: 0 1px 0 #ECECEC;
+                display: block;
+                width:300px;
+                text-align: center;
+                text-decoration: none;
+                margin-top: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                line-height: 15px;
+                margin-bottom: 10px;
+                padding: 10px 15px 10px 16px;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-shadow: 0 -1px 0 #2E63A5;
+                cursor: pointer;
+}
+
+.downloadButton:hover {
+    background: -moz-linear-gradient(90deg, #2d588e, #446fa3) repeat scroll 0 0 #446fa3;
+    border: 1px solid #1f4676;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #2E63A5;
+}
+
+.downloadButton:visited{ color: #FFFFFF;}
+
+.version{ font-style: normal; font-size: 18px; color: darkgray;}
+.versionb{color: darkgray; text-align: right; font-size: 10px;}
+
+.mistake{ display: none; width:300px; float: right; border: 1px #0269b4 dashed; margin-left: 10px; padding: 10px; font-size: 11px; margin-bottom: 10px;}
+.mistake h2{ margin-top: 0px;}
+.mistake-type{font-size: 14px;}
+
+.right { overflow: hidden;}
+
+.bugButton {}
+.bugButton span{ font-size: 10px; display: block;}
+.button-right{float: right;}
+
+.bugButton.red {background: -moz-linear-gradient(90deg, #b83535, #e2715e) repeat scroll 0 0 #e2715e;
+                border: 1px solid #a52e2e;
+                text-shadow: 0 -1px 0 #a5422e;
+}
+
+.bugButton.red:hover {background: -moz-linear-gradient(90deg, #8e2d2d, #a35a44) repeat scroll 0 0 #a35a44;
+    border: 1px solid #761f1f;}
+
+.bugButton.green {background: -moz-linear-gradient(90deg, #368f27, #7de25e) repeat scroll 0 0 #7de25e;
+                border: 1px solid #36a52e;
+                text-shadow: 0 -1px 0 #2ea542;
+}
+
+.bugButton.green:hover {background: -moz-linear-gradient(90deg, #3b8e2d, #51a344) repeat scroll 0 0 #51a344;
+    border: 1px solid #38761f;}
+
+.bugButton.yellow {background: -moz-linear-gradient(90deg, #8f892a, #d5d053) repeat scroll 0 0 #d5d053;
+                border: 1px solid #a5982e;
+                text-shadow: 0 -1px 0 #a1a52e;
+}
+
+.bugButton.yellow:hover {background: -moz-linear-gradient(90deg, #716c23, #a3a044) repeat scroll 0 0 #a3a044;
+    border: 1px solid #766f1f;}
+
+.checkme{height: 380px; width: 100%; overflow: hidden; z-index: 150;}
+.help{ font-size: 11px; display: block;}
+
+.highlight td{ background-color: #E7F5FF; font-weight: bold;}
+
+.flag{ display: block; background-image: url('../images/flags.png'); width:55px; height: 43px; float:left; margin-right: 10px; background-position: -50px 0;}
+.ua-flag{background-position: -50px -42px;}
+.language-selector{display: block; height: 50px; width: 150px; position: absolute; top: 12px; left:335px;}
