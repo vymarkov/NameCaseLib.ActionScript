@@ -146,8 +146,7 @@
 			else if ( NCLStr.search(osnovaEnd, shyplyachi) && !NCLStr.search(last, myaki) )			
 			{
 				return 2;
-			}
-			return 3;			        
+			}			return 3;			        
 		}
 		
 		/**
